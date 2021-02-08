@@ -1,0 +1,399 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'pt_sansregular';
+}
+header.ust{
+	background: url("../images/overlay.png"),url("../images/banner.jpg");
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+}
+
+header h1{
+	position: relative;
+	font-size: 18px;
+	margin-left: 30px;
+	top: 50px;
+	color: #d8d8d8;
+	font-weight: 100;
+	text-transform: uppercase;
+	
+}
+header strong{
+	font-weight: 700;
+	
+}
+header a{
+	text-decoration: none;
+	color: white;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+	text-transform: none;
+}
+header ul{
+	list-style: none;
+	position: relative;
+	float: right;
+	right: 20px;
+	top: 0px;
+}
+header ul li{
+	display: block;
+	padding: 30px;
+	float: left;
+}
+header ul li a{
+	font-size: 18px;
+	font-family: 'pt_sansregular';
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #d8d8d8;
+	transition: 0.2s;
+}
+header ul li a:hover{
+	color: white;
+}
+header #banner{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	text-align: center;
+}
+#banner h2{
+	font-size: 40px;
+	color: aliceblue;
+	font-weight: 700;
+	margin-bottom: 20px;
+	
+}
+#banner p{
+	color: #aaa;
+	font-size: 22px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	line-height: 40px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	
+}
+#banner a{
+	padding: 25px 35px;
+	background: #f32853;
+	text-transform: uppercase;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: 'Raleway', sans-serif;
+	transition: 0.2s;
+	
+}
+#banner a:hover{
+	background: crimson;
+}
+#hisse2{
+	width: 1000px;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+.qruplasma{
+	width: 1100px;
+	margin: 0px auto;
+	padding: 0px;
+	
+}
+#hisse2 .sol{
+	width: 400px;
+	float: left;
+	padding-left: 70px;
+	
+}
+#hisse2 .sol h2{
+	font-family: 'Raleway', sans-serif;
+	margin-top: 70px;
+	font-size: 50px;
+	font-weight: 700;
+	color: #484848;
+	line-height: 60px;
+}
+#hisse2 .sol p{
+	font-family: 'Raleway', sans-serif;
+	margin-top: 40px;
+	font-size: 30px;
+	font-weight: 100;
+	color: #aaa;
+	line-height: 40px;
+}
+#hisse2 .sag{
+	width: 450px;
+	float: right;
+	padding-right: 70px;
+	margin-left: 40px;
+}
+#hisse2 .sag p{
+	color: #666;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.temizle{
+	clear: both;
+}
+/*Ucuncu hisse*/
+
+#hisse3{
+	width: 100%;
+	margin: 0px auto;
+	padding: 20px 0px;
+	background: #F3F3F3;
+	text-align: center;
+}
+#hisse3 h2{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+ 	color: #484848;
+}
+#hisse3 p{
+	margin: 40px 0px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #111;
+}
+#hisse3 p{
+	margin: 40px 0px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #242424;
+}
+#hisse3 .image{
+	width: 500px;
+	float: left;
+	background: #fff;
+	margin: 50px 20px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 3px #ccc;
+}
+
+#hisse3 img{
+	width: 500px;
+	margin: 0px;
+}
+#hisse3 .qruplasma2{
+	width: 1100px;
+	margin: 0px auto;
+}
+#hisse3 ul{
+	list-style: none;
+	
+}
+#hisse3 ul li{
+	display: inline-block;
+	text-align: center;
+}
+#hisse3 ul li a{
+	
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	padding: 17px 75px;
+	background: #f32853;
+	color: white;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+#hisse3 ul li:nth-child(2) a{
+	background: #323037;
+}
+/*dorduncu hisse*/
+
+#hisse4{
+	width: 100%;
+	padding: 60px;
+	
+}
+#hisse4 h2{
+	margin-left: 80px;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	color: #484848;
+	margin-bottom: 30px;
+	
+}
+#hisse4 h2+p{
+	font-size: 18px;
+	color: #666;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+#hisse4 .bolumler{
+	width: 460px;
+	float: left;
+	margin-bottom: 50px;
+	margin-right: 20px;
+	
+}
+#hisse4 .bolumler .kicikresim{
+	float: right;
+	width: 130px;
+	margin: 10px;
+}
+#hisse4 .bolumler .kicikresim img{
+	border: 5px solid #b0b0b0;
+	border-radius: 100%;
+	width: 130px;
+}
+#hisse4 .bolumler .yazi{
+	float: left;
+	width: 290px;
+	text-align: right;
+	padding: 10px;
+	line-height: 25px;
+}
+#hisse4 .bolumler h3{
+	text-align: right;
+	font-size: 18px;
+	color: #484848;
+	margin-bottom: 10px;
+}
+#hisse4 .bolumler .yazi h3+p{
+	font-size: 14px;
+	color: #aaa;
+	margin-bottom: 20px;
+}
+#hisse4 .bolumler:nth-child(2n) .yazi{
+	text-align: left;
+}
+#hisse4 .bolumler:nth-child(2n) .yazi h3{
+	text-align: left;
+}
+#hisse4 .bolumler:nth-child(2n) .kicikresim{
+	float: left;
+}
+#hisse4 .bolumler .yazi:nth-child(3) {
+	color: #666;
+	font-size: 18px;
+}
+/*Besinci hisse*/
+#hisse5 {
+	width: 100%;
+	height: 350px;
+	background: url("../images/overlay.png"),url("../images/banner.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+}
+#hisse5 .content{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+#hisse5 .content h2{
+	font-size: 50px;
+	color: aliceblue;
+	font-weight: 500;
+	margin-bottom: 15px;
+	
+}
+#hisse5 .content p{
+	color: #aaa;
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+#hisse5 .content a{
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 700;
+	display: inline-block;
+	padding: 20px 35px;
+	background: #f32853;
+	text-decoration: none;
+	color: antiquewhite;
+	transition: 0.2s;
+	
+}
+#hisse5 .content a:hover{
+	background: crimson;
+	
+}
+footer{
+	width: 100%;
+	height: 350px;
+	text-align: center;
+	
+}
+footer .social{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+footer a{
+	position: relative;
+	display: inline-block;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+footer a[title="facebook"]::before{
+	content: '';
+	background: url("../icons/facebook.png") no-repeat;
+	width: 45px;
+	height: 42px;
+	display: inline-block;
+}
+footer a[title="twitter"]::before{
+	content: '';
+	background: url("../icons/twitter.png") no-repeat;
+	width: 45px;
+	height: 42px;
+	display: inline-block;
+}
+footer a[title="linkedin"]::before{
+	content: '';
+	background: url("../icons/linkedin.png") no-repeat;
+	width: 45px;
+	height: 42px;
+	display: inline-block;
+}
+footer ul{
+	list-style: none;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+footer ul li{
+	display: inline-block;
+	padding: 2px 25px;
+	
+}
+footer ul li p{
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: darkgray;
+}
+footer ul li:nth-child(-n+2){
+	border-right: 2px solid #b4b1b1;
+}
+
+
+
+
+
+
+
+
+
+
